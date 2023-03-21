@@ -10,6 +10,7 @@ view: persons {
   # A dimension is a groupable field that can be used to filter query results.
   # This dimension will be called "Emp ID" in Explore.
 
+
   dimension: emp_id {
     type: number
     sql: ${TABLE}.EmpID ;;

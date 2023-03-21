@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Xin Test for Bug2"
 view: xin_test_for_bug2 {
   # The sql_table_name parameter indicates the underlying database table
@@ -39,6 +40,7 @@ view: xin_test_for_bug2 {
   measure: average_price {
     type: average
     sql: ${price} ;;
+
   }
 
   measure: count {

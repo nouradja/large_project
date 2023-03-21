@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Incremental Pdts Test"
 view: incremental_pdts_test {
   # The sql_table_name parameter indicates the underlying database table
@@ -33,6 +34,7 @@ view: incremental_pdts_test {
   # Here's what a typical dimension looks like in LookML.
   # A dimension is a groupable field that can be used to filter query results.
   # This dimension will be called "Val" in Explore.
+
 
   dimension: val {
     type: string

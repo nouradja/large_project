@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Ints"
 view: ints {
   # The sql_table_name parameter indicates the underlying database table
@@ -9,6 +10,7 @@ view: ints {
   # Here's what a typical dimension looks like in LookML.
   # A dimension is a groupable field that can be used to filter query results.
   # This dimension will be called "I" in Explore.
+
 
   dimension: i {
     type: yesno

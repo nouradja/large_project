@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Fakeorders"
 view: fakeorders {
   # The sql_table_name parameter indicates the underlying database table
@@ -38,6 +39,7 @@ view: fakeorders {
   measure: average_order_price {
     type: average
     sql: ${order_price} ;;
+
   }
 
   measure: count {

@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Employees"
 view: employees {
   # The sql_table_name parameter indicates the underlying database table
@@ -32,6 +33,7 @@ view: employees {
   measure: average_manager {
     type: average
     sql: ${manager} ;;
+
   }
 
   dimension: name {

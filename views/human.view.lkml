@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Human"
 view: human {
   # The sql_table_name parameter indicates the underlying database table
@@ -33,6 +34,7 @@ view: human {
   # Here's what a typical dimension looks like in LookML.
   # A dimension is a groupable field that can be used to filter query results.
   # This dimension will be called "First Name" in Explore.
+
 
   dimension: first_name {
     type: string

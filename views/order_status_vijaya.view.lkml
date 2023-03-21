@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Order Status Vijaya"
 view: order_status_vijaya {
   # The sql_table_name parameter indicates the underlying database table
@@ -32,6 +33,7 @@ view: order_status_vijaya {
   measure: average_orders_count {
     type: average
     sql: ${orders_count} ;;
+
   }
 
   dimension: orders_status {

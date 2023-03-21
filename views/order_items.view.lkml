@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Order Items"
 view: order_items {
   # The sql_table_name parameter indicates the underlying database table
@@ -73,6 +74,7 @@ view: order_items {
   measure: average_sale_price {
     type: average
     sql: ${sale_price} ;;
+
   }
 
   measure: count {

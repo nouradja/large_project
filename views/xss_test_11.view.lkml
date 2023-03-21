@@ -10,6 +10,7 @@ view: xss_test_11 {
   # A dimension is a groupable field that can be used to filter query results.
   # This dimension will be called "Div Stylebackgroundimage Urljavascriptprompt2" in Explore.
 
+
   dimension: div_stylebackgroundimage_urljavascriptprompt2 {
     type: string
     sql: ${TABLE}.`<div style="background-image: url('javascript:prompt(2)')">`

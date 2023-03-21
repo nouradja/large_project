@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Users"
 view: users {
   # The sql_table_name parameter indicates the underlying database table
@@ -49,6 +50,7 @@ view: users {
 
   # Dates and timestamps can be represented in Looker using a dimension group of type: time.
   # Looker converts dates and timestamps to the specified timeframes within the dimension group.
+
 
   dimension_group: created {
     type: time

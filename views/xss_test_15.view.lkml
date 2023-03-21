@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Xss Test 15"
 view: xss_test_15 {
   # The sql_table_name parameter indicates the underlying database table
@@ -9,6 +10,7 @@ view: xss_test_15 {
   # Here's what a typical dimension looks like in LookML.
   # A dimension is a groupable field that can be used to filter query results.
   # This dimension will be called "Div Stylebackgroundimage Urljavascriptalert1" in Explore.
+
 
   dimension: div_stylebackgroundimage_urljavascriptalert1 {
     type: string

@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Connection Reg R3"
 view: connection_reg_r3 {
   # The sql_table_name parameter indicates the underlying database table
@@ -27,6 +28,7 @@ view: connection_reg_r3 {
   measure: average_created_at {
     type: average
     sql: ${created_at} ;;
+
   }
 
   dimension: expires_at {

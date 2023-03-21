@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Fatal Error User Derived Base"
 view: fatal_error_user_derived_base {
   # The sql_table_name parameter indicates the underlying database table
@@ -27,6 +28,7 @@ view: fatal_error_user_derived_base {
   measure: average_users_count {
     type: average
     sql: ${users_count} ;;
+
   }
 
   dimension: users_state {

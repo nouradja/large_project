@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Schema Migrations"
 view: schema_migrations {
   # The sql_table_name parameter indicates the underlying database table
@@ -9,6 +10,7 @@ view: schema_migrations {
   # Here's what a typical dimension looks like in LookML.
   # A dimension is a groupable field that can be used to filter query results.
   # This dimension will be called "Filename" in Explore.
+
 
   dimension: filename {
     type: string

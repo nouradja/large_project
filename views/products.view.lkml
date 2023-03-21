@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Products"
 view: products {
   # The sql_table_name parameter indicates the underlying database table
@@ -59,6 +60,7 @@ view: products {
   measure: average_retail_price {
     type: average
     sql: ${retail_price} ;;
+
   }
 
   dimension: sku {

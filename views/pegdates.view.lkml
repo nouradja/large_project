@@ -16,6 +16,7 @@ view: pegdates {
   # Dates and timestamps can be represented in Looker using a dimension group of type: time.
   # Looker converts dates and timestamps to the specified timeframes within the dimension group.
 
+
   dimension_group: mydate {
     type: time
     timeframes: [

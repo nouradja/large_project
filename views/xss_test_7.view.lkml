@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Xss Test 7"
 view: xss_test_7 {
   # The sql_table_name parameter indicates the underlying database table

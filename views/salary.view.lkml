@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Salary"
 view: salary {
   # The sql_table_name parameter indicates the underlying database table
@@ -33,6 +34,7 @@ view: salary {
   measure: average_salary {
     type: average
     sql: ${salary} ;;
+
   }
 
   measure: count {

@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Sindhu"
 view: sindhu {
   # The sql_table_name parameter indicates the underlying database table
@@ -41,6 +42,7 @@ view: sindhu {
 
   # Dates and timestamps can be represented in Looker using a dimension group of type: time.
   # Looker converts dates and timestamps to the specified timeframes within the dimension group.
+
 
   dimension_group: funding {
     type: time

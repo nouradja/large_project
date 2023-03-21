@@ -38,6 +38,7 @@ view: ten_million_orders {
   measure: average_order_price {
     type: average
     sql: ${order_price} ;;
+
   }
 
   measure: count {

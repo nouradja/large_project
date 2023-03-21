@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "User Data"
 view: user_data {
   # The sql_table_name parameter indicates the underlying database table
@@ -34,6 +35,7 @@ view: user_data {
   measure: average_max_num_orders {
     type: average
     sql: ${max_num_orders} ;;
+
   }
 
   dimension: total_num_orders {

@@ -1,3 +1,4 @@
+
 # The name of this view in Looker is "Vvimgsrc1onerroralert2ll"
 view: vvimgsrc1onerroralert2ll {
   # The sql_table_name parameter indicates the underlying database table
