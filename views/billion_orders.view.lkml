@@ -1,4 +1,4 @@
-
+##
 # The name of this view in Looker is "Billion Orders"
 view: billion_orders {
   # The sql_table_name parameter indicates the underlying database table
