@@ -4,7 +4,7 @@
 # Explores should be purpose-built for specific use cases.
 
 # To see the Explore you’re building, navigate to the Explore menu and select an Explore under "Large Project"
-
+##
 # To create more sophisticated Explores that involve multiple views, you can use the join parameter.
 # Typically, join parameters require that you define the join type, join relationship, and a sql_on clause.
 # Each joined view also needs to define a primary key.
