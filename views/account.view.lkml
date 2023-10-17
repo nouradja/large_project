@@ -1,4 +1,6 @@
+
 #####
+
 # The name of this view in Looker is "Account"
 view: account {
   # The sql_table_name parameter indicates the underlying database table
