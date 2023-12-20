@@ -9,6 +9,7 @@ view: period_over_period_day_datamart_extension {
   #   sql: ${TABLE}.user_id ;;
   # }
   #
+  ###
   # dimension: lifetime_orders {
   #   description: "The total number of orders for each user"
   #   type: number
